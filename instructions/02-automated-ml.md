@@ -36,13 +36,18 @@ To use automated machine learning, you require compute on which to run the model
 
 Now that you have some compute resources that you can use to process data, you'll need a way to store and ingest the data to be processed.
 
-1. In Azure Machine Learning studio, view the **Datasets** page. Datasets represent specific data files or tables that you plan to work with in Azure ML.
-3. Create a new dataset from web files, using the following settings:
+1. View the comma-separated data at https://aka.ms/diabetes-data in your web browser. Then save this as a local file named **diabetes.csv** (it doesn't matter where you save it).
+2. In Azure Machine Learning studio, view the **Datasets** page. Datasets represent specific data files or tables that you plan to work with in Azure ML.
+3. Create a new dataset from local files, using the following settings:
     * **Basic Info**:
-        * **Web URL**: https://aka.ms/diabetes-data
         * **Name**: diabetes dataset
         * **Dataset type**: Tabular
         * **Description**: Diabetes data
+    * **Datastore and file selection**:
+        * **Select or create a datastore**: Currently selected datastore
+        * **Select files for your dataset**: Browse to the **diabetes.csv** file you downloaded.
+        * **Upload path**: *Leave the default selection*
+        * **Skip data validation**: Not selected
     * **Settings and preview**:
         * **File format**: Delimited
         * **Delimiter**: Comma
@@ -77,7 +82,7 @@ In Azure Machine Learning, operations that you run are called *experiments*. Fol
             - **Explain best model**: Selected - *this option causes automated machine learning to calculate feature importance for the best model; making it possible to determine the influence of each feature on the predicted label.*
             - **Blocked algorithms**: Leave all algorithms selected
             - **Exit criterion**:
-                - **Training job time (hours)**: 0.25 - *this causes the experiment to end after a maximum of 15 minutes.*
+                - **Training job time (hours)**: 0.5 - *this causes the experiment to end after a maximum of 30 minutes.*
                 - **Metric score threshold**: 0.90 - *this causes the experiment to end if a model achieves a weighted AUC metric of 90% or higher.*
         - **Featurization settings:**
             - **Enable featurization**: Selected - *this causes Azure Machine Learning to automatically preprocess the features before training.*
