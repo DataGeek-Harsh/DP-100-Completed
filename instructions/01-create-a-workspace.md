@@ -69,7 +69,6 @@ A lot of data science and machine learning experimentation is performed by runni
 3. Enter the following commands to clone a Git repository containing notebooks, data, and other files to your workspace:
 
     ```bash
-    cd Users
     git clone https://github.com/MicrosoftLearning/mslearn-dp100
     ```
 
