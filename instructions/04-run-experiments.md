@@ -46,7 +46,7 @@ The Azure Machine Learning SDK is installed by default on your compute instance.
 
 Experiments in Azure Machine Learning need to be initiated from some sort of *control* layer; often a script or program. In this exercise, you'll use a notebook to control experiments.
 
-1. In the Jupyter home page, browse to the **Users/mslearn-dp100** folder where you cloned the notebook repository, and open the **Run Experiments** notebook.
+1. In the Jupyter home page, browse to the **/users/*your-user-name*/mslearn-dp100** folder where you cloned the notebook repository, and open the **Run Experiments** notebook.
 2. Then read the notes in the notebook, running each code cell in turn.
 3. When you have finished running the code in the notebook, on the **File** menu, click **Close and Halt** to close it and shut down its Python kernel. Then close all Jupyter browser tabs.
 
