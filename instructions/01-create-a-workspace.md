@@ -66,7 +66,7 @@ A lot of data science and machine learning experimentation is performed by runni
 
 1. In Azure Machine Learning studio, view the **Notebooks** page.
 2. Open a **Terminal**, and ensure that its **Compute** is set to your compute instance and that the current path is the **/users/*your-user-name*** folder.
-3. Enter the following commands to clone a Git repository containing notebooks, data, and other files to your workspace:
+3. Enter the following command to clone a Git repository containing notebooks, data, and other files to your workspace:
 
     ```bash
     git clone https://github.com/MicrosoftLearning/mslearn-dp100
