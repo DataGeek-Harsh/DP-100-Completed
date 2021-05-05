@@ -52,7 +52,7 @@ One of the benefits of Azure Machine Learning is the ability to create cloud-bas
 2. On the **Compute instances** tab, add a new compute instance with the following settings. You'll use this as a workstation to run code in notebooks.
     - **Region**: *The same region as your workspace*
     - **Virtual machine type**: CPU
-    - **Virtual machine size**: Standard_DS11_v2
+    - **Virtual machine size**: Standard_DS11_v2 *(this is not listed as a recommended option - we're using it in this course to minimize cost while providing acceptable performance)*
     - **Compute name**: *enter a unique name*
     - **Enable SSH access**: Unselected (you can use this to enable direct access to the virtual machine using an SSH client)
     - **Show advanced settings**: Note the following settings, but do not select them:
