@@ -54,7 +54,7 @@ One of the benefits of Azure Machine Learning is the ability to create cloud-bas
     - **Virtual machine type**: CPU
     - **Virtual machine size**: Standard_DS11_v2 *(this is not listed as a recommended option - we're using it in this course to minimize cost while providing acceptable performance)*
     - **Compute name**: *enter a unique name*
-    - **Enable SSH access**: Unselected (you can use this to enable direct access to the virtual machine using an SSH client)
+    - **Enable SSH access**: Unselected *(you can use this to enable direct access to the virtual machine using an SSH client)*
     - **Show advanced settings**: Note the following settings, but do not select them:
         - **Enable virtual network**: Unselected (you would typically use this in an enterprise environment to enhance network security)
         - **Assign to another user**: Unselected (you can use this to assign a compute instance to a data scientist)
