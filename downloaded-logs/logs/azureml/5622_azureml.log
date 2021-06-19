@@ -1,0 +1,194 @@
+2021-05-17 20:58:12,747|azureml|DEBUG|Inputs:: kwargs: {'OutputCollection': True, 'EnableMLflowTracking': True, 'snapshotProject': True}, track_folders: None, deny_list: None, directories_to_watch: ['logs', 'logs/azureml']
+2021-05-17 20:58:12,749|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Execution target type: none
+2021-05-17 20:58:12,749|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Failed to import pyspark with error: No module named 'pyspark'
+2021-05-17 20:58:12,749|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Pinning working directory for filesystems: ['pyfs']
+2021-05-17 20:58:13,210|azureml.core.run|DEBUG|Adding new factory <function ScriptRun._from_run_dto at 0x7f5121d76ae8> for run source azureml.scriptrun
+2021-05-17 20:58:13,211|azureml.core.run|DEBUG|Identity in use is not set. Falling back to using AMLToken
+2021-05-17 20:58:13,211|azureml.core.run|DEBUG|Using AMLToken auth for remote run
+2021-05-17 20:58:13,212|azureml.core.authentication.TokenRefresherDaemon|DEBUG|Starting daemon and triggering first instance
+2021-05-17 20:58:13,221|azureml._restclient.clientbase|INFO|Created a worker pool for first use
+2021-05-17 20:58:13,221|azureml.core.authentication|DEBUG|Time to expire 1814303.778318 seconds
+2021-05-17 20:58:13,221|azureml._restclient.service_context|DEBUG|Created a static thread pool for ServiceContext class
+2021-05-17 20:58:13,222|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westus2.api.azureml.ms.
+2021-05-17 20:58:13,222|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westus2.api.azureml.ms.
+2021-05-17 20:58:13,222|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westus2.api.azureml.ms.
+2021-05-17 20:58:13,222|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westus2.api.azureml.ms.
+2021-05-17 20:58:13,223|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westus2.api.azureml.ms.
+2021-05-17 20:58:13,223|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westus2.api.azureml.ms.
+2021-05-17 20:58:13,223|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westus2.api.azureml.ms.
+2021-05-17 20:58:13,261|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.RunClient.get_by_exp_id-async:False|DEBUG|[START]
+2021-05-17 20:58:13,261|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.RunClient|DEBUG|ClientBase: Calling get_by_exp_id with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}
+2021-05-17 20:58:13,330|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.RunClient.get_by_exp_id-async:False|DEBUG|[STOP]
+2021-05-17 20:58:13,331|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538|DEBUG|Constructing run from dto. type: azureml.scriptrun, source: None, props: {'_azureml.ComputeTargetType': 'local', 'ContentSnapshotId': '288ee421-3bba-43e9-9734-a47f89a6d23b', 'azureml.git.repository_uri': 'https://github.com/MicrosoftLearning/mslearn-dp100', 'mlflow.source.git.repoURL': 'https://github.com/MicrosoftLearning/mslearn-dp100', 'azureml.git.branch': 'main', 'mlflow.source.git.branch': 'main', 'azureml.git.commit': '4b2d8f846113907a4c4feaad879dec4ce40aa3f1', 'mlflow.source.git.commit': '4b2d8f846113907a4c4feaad879dec4ce40aa3f1', 'azureml.git.dirty': 'True'}
+2021-05-17 20:58:13,331|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunContextManager|DEBUG|Valid logs dir, setting up content loader
+2021-05-17 20:58:13,332|azureml|WARNING|Could not import azureml.mlflow or azureml.contrib.mlflow mlflow APIs will not run against AzureML services.  Add azureml-mlflow as a conda dependency for the run if this behavior is desired
+2021-05-17 20:58:13,332|azureml.WorkerPool|DEBUG|[START]
+2021-05-17 20:58:13,332|azureml.SendRunKillSignal|DEBUG|[START]
+2021-05-17 20:58:13,332|azureml.RunStatusContext|DEBUG|[START]
+2021-05-17 20:58:13,332|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunContextManager.RunStatusContext|DEBUG|[START]
+2021-05-17 20:58:13,332|azureml.MetricsClient|DEBUG|[START]
+2021-05-17 20:58:13,332|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient|DEBUG|[START]
+2021-05-17 20:58:13,332|azureml.ContentUploader|DEBUG|[START]
+2021-05-17 20:58:13,333|azureml._history.utils.context_managers|DEBUG|starting file watcher
+2021-05-17 20:58:13,333|azureml._history.utils.context_managers.FileWatcher.UploadQueue|DEBUG|[Start]
+2021-05-17 20:58:13,333|azureml.TrackFolders|DEBUG|[START]
+2021-05-17 20:58:13,334|azureml.WorkingDirectoryCM|DEBUG|[START]
+2021-05-17 20:58:13,334|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|[START]
+2021-05-17 20:58:13,334|azureml.history._tracking.PythonWorkingDirectory|INFO|Current working dir: /tmp/azureml_runs/mslearn-diabetes_1621284997_e7246538
+2021-05-17 20:58:13,334|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Calling pyfs
+2021-05-17 20:58:13,334|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Storing working dir for pyfs as /tmp/azureml_runs/mslearn-diabetes_1621284997_e7246538
+2021-05-17 20:58:13,344|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[START]
+2021-05-17 20:58:13,344|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient|DEBUG|ClientBase: Calling batch_create_empty_artifacts with url /artifact/v2.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/artifacts/batch/metadata/{origin}/{container}
+2021-05-17 20:58:13,633|azureml.core.run|DEBUG|Identity in use is not set. Falling back to using AMLToken
+2021-05-17 20:58:13,633|azureml.core.run|DEBUG|Using AMLToken auth for remote run
+2021-05-17 20:58:13,633|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2021-05-17 20:58:13,634|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westus2.api.azureml.ms.
+2021-05-17 20:58:13,634|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westus2.api.azureml.ms.
+2021-05-17 20:58:13,634|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westus2.api.azureml.ms.
+2021-05-17 20:58:13,634|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westus2.api.azureml.ms.
+2021-05-17 20:58:13,635|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westus2.api.azureml.ms.
+2021-05-17 20:58:13,635|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westus2.api.azureml.ms.
+2021-05-17 20:58:13,635|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://westus2.api.azureml.ms.
+2021-05-17 20:58:13,669|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.RunClient.get_by_exp_id-async:False|DEBUG|[START]
+2021-05-17 20:58:13,669|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.RunClient|DEBUG|ClientBase: Calling get_by_exp_id with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}
+2021-05-17 20:58:13,740|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.RunClient.get_by_exp_id-async:False|DEBUG|[STOP]
+2021-05-17 20:58:13,741|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538|DEBUG|Constructing run from dto. type: azureml.scriptrun, source: None, props: {'_azureml.ComputeTargetType': 'local', 'ContentSnapshotId': '288ee421-3bba-43e9-9734-a47f89a6d23b', 'azureml.git.repository_uri': 'https://github.com/MicrosoftLearning/mslearn-dp100', 'mlflow.source.git.repoURL': 'https://github.com/MicrosoftLearning/mslearn-dp100', 'azureml.git.branch': 'main', 'mlflow.source.git.branch': 'main', 'azureml.git.commit': '4b2d8f846113907a4c4feaad879dec4ce40aa3f1', 'mlflow.source.git.commit': '4b2d8f846113907a4c4feaad879dec4ce40aa3f1', 'azureml.git.dirty': 'True'}
+2021-05-17 20:58:13,741|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunContextManager|DEBUG|Valid logs dir, setting up content loader
+2021-05-17 20:58:13,756|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient|DEBUG|Overrides: Max batch size: 50, batch cushion: 5, Interval: 1.
+2021-05-17 20:58:13,756|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.PostMetricsBatchV2Daemon|DEBUG|Starting daemon and triggering first instance
+2021-05-17 20:58:13,757|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient|DEBUG|Used <class 'azureml._common.async_utils.batch_task_queue.BatchTaskQueue'> for use_batch=True.
+2021-05-17 20:58:13,762|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538|INFO|complete is not setting status for submitted runs.
+2021-05-17 20:58:13,762|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[START]
+2021-05-17 20:58:13,762|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient|DEBUG|Overrides: Max batch size: 50, batch cushion: 5, Interval: 1.
+2021-05-17 20:58:13,762|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatch.PostMetricsBatchDaemon|DEBUG|Starting daemon and triggering first instance
+2021-05-17 20:58:13,762|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient|DEBUG|Used <class 'azureml._common.async_utils.batch_task_queue.BatchTaskQueue'> for use_batch=True.
+2021-05-17 20:58:13,762|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[START]
+2021-05-17 20:58:13,763|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|flush timeout 300 is different from task queue timeout 120, using flush timeout
+2021-05-17 20:58:13,763|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|Waiting 300 seconds on tasks: [].
+2021-05-17 20:58:13,763|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatch|DEBUG|
+2021-05-17 20:58:13,763|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2021-05-17 20:58:13,763|azureml.BatchTaskQueueAdd_1_Batches|DEBUG|[Start]
+2021-05-17 20:58:13,763|azureml.BatchTaskQueueAdd_1_Batches.WorkerPool|DEBUG|submitting future: _handle_batch
+2021-05-17 20:58:13,763|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatchV2|DEBUG|Batch size 3.
+2021-05-17 20:58:13,763|azureml.BatchTaskQueueAdd_1_Batches.0__handle_batch|DEBUG|Using basic handler - no exception handling
+2021-05-17 20:58:13,763|azureml._restclient.service_context.WorkerPool|DEBUG|submitting future: _log_batch_v2
+2021-05-17 20:58:13,764|azureml.BatchTaskQueueAdd_1_Batches|DEBUG|Adding task 0__handle_batch to queue of approximate size: 0
+2021-05-17 20:58:13,764|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient|DEBUG|Metrics Client: _log_batch_v2 is calling post_run_metrics posting 3 values.
+2021-05-17 20:58:13,764|azureml.BatchTaskQueueAdd_1_Batches|DEBUG|[Stop] - waiting default timeout
+2021-05-17 20:58:13,764|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.0__log_batch_v2|DEBUG|Using basic handler - no exception handling
+2021-05-17 20:58:13,765|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatchV2|DEBUG|Adding task 0__log_batch_v2 to queue of approximate size: 0
+2021-05-17 20:58:13,765|azureml.BatchTaskQueueAdd_1_Batches.WaitFlushSource:BatchTaskQueueAdd_1_Batches|DEBUG|[START]
+2021-05-17 20:58:13,764|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient._post_run_metrics_log_failed_validations-async:False|DEBUG|[START]
+2021-05-17 20:58:13,765|azureml.BatchTaskQueueAdd_1_Batches.WaitFlushSource:BatchTaskQueueAdd_1_Batches|DEBUG|Overriding default flush timeout from None to 120
+2021-05-17 20:58:13,765|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient|DEBUG|ClientBase: Calling _post_run_metrics_log_failed_validations with url None
+2021-05-17 20:58:13,765|azureml.BatchTaskQueueAdd_1_Batches.WaitFlushSource:BatchTaskQueueAdd_1_Batches|DEBUG|Waiting 120 seconds on tasks: [AsyncTask(0__handle_batch)].
+2021-05-17 20:58:13,770|azureml.BatchTaskQueueAdd_1_Batches.0__handle_batch.WaitingTask|DEBUG|[START]
+2021-05-17 20:58:13,770|azureml.BatchTaskQueueAdd_1_Batches.0__handle_batch.WaitingTask|DEBUG|Awaiter is BatchTaskQueueAdd_1_Batches
+2021-05-17 20:58:13,770|azureml.BatchTaskQueueAdd_1_Batches.0__handle_batch.WaitingTask|DEBUG|[STOP]
+2021-05-17 20:58:13,770|azureml.BatchTaskQueueAdd_1_Batches|DEBUG|
+2021-05-17 20:58:13,770|azureml.BatchTaskQueueAdd_1_Batches.WaitFlushSource:BatchTaskQueueAdd_1_Batches|DEBUG|[STOP]
+2021-05-17 20:58:13,770|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[START]
+2021-05-17 20:58:13,771|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|flush timeout 300 is different from task queue timeout 120, using flush timeout
+2021-05-17 20:58:13,771|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|Waiting 300 seconds on tasks: [AsyncTask(0__log_batch_v2)].
+2021-05-17 20:58:14,045|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient._post_run_metrics_log_failed_validations-async:False|DEBUG|[STOP]
+2021-05-17 20:58:14,272|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.0__log_batch_v2.WaitingTask|DEBUG|[START]
+2021-05-17 20:58:14,272|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.0__log_batch_v2.WaitingTask|DEBUG|Awaiter is PostMetricsBatchV2
+2021-05-17 20:58:14,272|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.0__log_batch_v2.WaitingTask|DEBUG|[STOP]
+2021-05-17 20:58:14,272|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatchV2|DEBUG|Waiting on task: 0__log_batch_v2.
+1 tasks left. Current duration of flush 9.489059448242188e-05 seconds.
+Waiting on task: 0__log_batch_v2.
+1 tasks left. Current duration of flush 0.2505495548248291 seconds.
+
+2021-05-17 20:58:14,272|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2021-05-17 20:58:14,272|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[STOP]
+2021-05-17 20:58:14,272|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[START]
+2021-05-17 20:58:14,272|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient|DEBUG|ClientBase: Calling wait_on_ingest with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/metricsingest/wait
+2021-05-17 20:58:14,345|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[STOP]
+2021-05-17 20:58:14,943|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[STOP]
+2021-05-17 20:58:14,966|azureml._history.utils.context_managers.FileWatcher|DEBUG|uploading data to container: azureml blob: ExperimentRun/dcid.mslearn-diabetes_1621284997_e7246538/logs/azureml/5622_azureml.log path: /tmp/azureml_runs/mslearn-diabetes_1621284997_e7246538/logs/azureml/5622_azureml.log
+2021-05-17 20:58:14,967|azureml._history.utils.context_managers.FileWatcher.UploadQueue.WorkerPool|DEBUG|submitting future: result
+2021-05-17 20:58:14,967|azureml._history.utils.context_managers.FileWatcher.UploadQueue.0_result|DEBUG|Using basic handler - no exception handling
+2021-05-17 20:58:14,967|azureml._history.utils.context_managers.FileWatcher.UploadQueue|DEBUG|Adding task 0_result to queue of approximate size: 0
+2021-05-17 20:58:19,358|azureml._restclient.clientbase|DEBUG|ClientBase: Calling update_status with url None
+2021-05-17 20:58:19,421|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Uploading tracked directories: [], excluding []
+2021-05-17 20:58:19,421|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Calling track for pyfs
+2021-05-17 20:58:19,519|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Calling pyfs
+2021-05-17 20:58:19,519|azureml.history._tracking.PythonWorkingDirectory|INFO|Current working dir: /tmp/azureml_runs/mslearn-diabetes_1621284997_e7246538
+2021-05-17 20:58:19,519|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Reverting working dir from /tmp/azureml_runs/mslearn-diabetes_1621284997_e7246538 to /tmp/azureml_runs/mslearn-diabetes_1621284997_e7246538
+2021-05-17 20:58:19,520|azureml.history._tracking.PythonWorkingDirectory|INFO|Working dir is already updated /tmp/azureml_runs/mslearn-diabetes_1621284997_e7246538
+2021-05-17 20:58:19,520|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|[STOP]
+2021-05-17 20:58:19,520|azureml.WorkingDirectoryCM|DEBUG|[STOP]
+2021-05-17 20:58:19,520|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Uploading tracked directories: ['./outputs'], excluding ['azureml-logs/driver_log']
+2021-05-17 20:58:19,520|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Calling track for pyfs
+2021-05-17 20:58:19,520|azureml.history._tracking.PythonWorkingDirectory|DEBUG|./outputs exists as directory, uploading..
+2021-05-17 20:58:19,520|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Found and adding path to upload: ./outputs/sample.csv
+2021-05-17 20:58:19,520|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Paths to upload is ['./outputs/sample.csv'] in dir ./outputs
+2021-05-17 20:58:19,520|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient.upload_files|DEBUG|Overriding default timeout to 300
+2021-05-17 20:58:19,520|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient.upload_files|DEBUG|[Start]
+2021-05-17 20:58:19,520|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[START]
+2021-05-17 20:58:19,520|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient|DEBUG|ClientBase: Calling batch_create_empty_artifacts with url /artifact/v2.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/artifacts/batch/metadata/{origin}/{container}
+2021-05-17 20:58:19,654|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[STOP]
+2021-05-17 20:58:19,654|azureml._restclient.service_context.WorkerPool|DEBUG|submitting future: perform_upload
+2021-05-17 20:58:19,655|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient.upload_files.0_perform_upload|DEBUG|Using basic handler - no exception handling
+2021-05-17 20:58:19,655|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient.upload_files|DEBUG|Adding task 0_perform_upload to queue of approximate size: 0
+2021-05-17 20:58:19,655|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient.upload_files|DEBUG|[Stop] - waiting default timeout
+2021-05-17 20:58:19,655|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient.upload_files.WaitFlushSource:upload_files|DEBUG|[START]
+2021-05-17 20:58:19,655|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient.upload_files.WaitFlushSource:upload_files|DEBUG|Overriding default flush timeout from None to 300
+2021-05-17 20:58:19,655|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient.upload_files.WaitFlushSource:upload_files|DEBUG|Waiting 300 seconds on tasks: [AsyncTask(0_perform_upload)].
+2021-05-17 20:58:19,655|azureml._restclient.clientbase|DEBUG|ClientBase: Calling create_blob_from_stream with url None
+2021-05-17 20:58:19,696|azureml._file_utils.upload|DEBUG|Uploaded blob ExperimentRun/dcid.mslearn-diabetes_1621284997_e7246538/outputs/sample.csv with size 5515, file size 5515.
+2021-05-17 20:58:19,905|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient.upload_files.0_perform_upload.WaitingTask|DEBUG|[START]
+2021-05-17 20:58:19,906|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient.upload_files.0_perform_upload.WaitingTask|DEBUG|Awaiter is upload_files
+2021-05-17 20:58:19,906|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient.upload_files.0_perform_upload.WaitingTask|DEBUG|[STOP]
+2021-05-17 20:58:19,906|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient.upload_files|DEBUG|Waiting on task: 0_perform_upload.
+1 tasks left. Current duration of flush 9.226799011230469e-05 seconds.
+
+2021-05-17 20:58:19,906|azureml._SubmittedRun#mslearn-diabetes_1621284997_e7246538.RunHistoryFacade.ArtifactsClient.upload_files.WaitFlushSource:upload_files|DEBUG|[STOP]
+2021-05-17 20:58:19,906|azureml.TrackFolders|DEBUG|[STOP]
+2021-05-17 20:58:19,906|azureml._history.utils.context_managers|DEBUG|exiting ContentUploader, waiting for file_watcher to finish upload...
+2021-05-17 20:58:19,906|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher called finish, setting event
+2021-05-17 20:58:19,906|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher received exit event, getting current_stat
+2021-05-17 20:58:19,907|azureml._history.utils.context_managers.FileWatcher.UploadQueue.WorkerPool|DEBUG|submitting future: result
+2021-05-17 20:58:19,907|azureml._history.utils.context_managers.FileWatcher.UploadQueue.1_result|DEBUG|Using basic handler - no exception handling
+2021-05-17 20:58:19,907|azureml._history.utils.context_managers.FileWatcher.UploadQueue|DEBUG|Adding task 1_result to queue of approximate size: 1
+2021-05-17 20:58:19,907|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher retrieved current_stat, will upload to current_stat
+2021-05-17 20:58:19,907|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,910|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,911|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,911|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,911|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,912|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,912|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,913|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,913|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,913|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,913|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,913|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,914|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,914|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,914|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,914|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,914|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,914|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,915|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher uploading files to current_stat...
+2021-05-17 20:58:19,916|azureml._history.utils.context_managers.FileWatcher.UploadQueue.WorkerPool|DEBUG|submitting future: result
+2021-05-17 20:58:19,916|azureml._history.utils.context_managers.FileWatcher.UploadQueue.2_result|DEBUG|Using basic handler - no exception handling
+2021-05-17 20:58:19,917|azureml._history.utils.context_managers.FileWatcher.UploadQueue|DEBUG|Adding task 2_result to queue of approximate size: 2
+2021-05-17 20:58:19,917|azureml._history.utils.context_managers.FileWatcher|DEBUG|FileWatcher finished uploading to current_stat, finishing task queue
+2021-05-17 20:58:19,917|azureml._history.utils.context_managers.FileWatcher.UploadQueue|DEBUG|[Stop] - waiting default timeout
+2021-05-17 20:58:19,917|azureml._history.utils.context_managers.FileWatcher.UploadQueue.WaitFlushSource:UploadQueue|DEBUG|[START]
+2021-05-17 20:58:19,917|azureml._history.utils.context_managers.FileWatcher.UploadQueue.WaitFlushSource:UploadQueue|DEBUG|Overriding default flush timeout from None to 120
+2021-05-17 20:58:19,917|azureml._history.utils.context_managers.FileWatcher.UploadQueue.WaitFlushSource:UploadQueue|DEBUG|Waiting 120 seconds on tasks: [AsyncTask(0_result), AsyncTask(1_result), AsyncTask(2_result)].
+2021-05-17 20:58:19,917|azureml._history.utils.context_managers.FileWatcher.UploadQueue.0_result.WaitingTask|DEBUG|[START]
+2021-05-17 20:58:19,917|azureml._history.utils.context_managers.FileWatcher.UploadQueue.0_result.WaitingTask|DEBUG|Awaiter is UploadQueue
+2021-05-17 20:58:19,917|azureml._history.utils.context_managers.FileWatcher.UploadQueue.0_result.WaitingTask|DEBUG|[STOP]
+2021-05-17 20:58:19,917|azureml._history.utils.context_managers.FileWatcher.UploadQueue.1_result.WaitingTask|DEBUG|[START]
+2021-05-17 20:58:19,917|azureml._history.utils.context_managers.FileWatcher.UploadQueue.1_result.WaitingTask|DEBUG|Awaiter is UploadQueue
+2021-05-17 20:58:19,917|azureml._history.utils.context_managers.FileWatcher.UploadQueue.1_result.WaitingTask|DEBUG|[STOP]
+2021-05-17 20:58:20,168|azureml._history.utils.context_managers.FileWatcher.UploadQueue.2_result.WaitingTask|DEBUG|[START]
+2021-05-17 20:58:20,168|azureml._history.utils.context_managers.FileWatcher.UploadQueue.2_result.WaitingTask|DEBUG|Awaiter is UploadQueue
+2021-05-17 20:58:20,168|azureml._history.utils.context_managers.FileWatcher.UploadQueue.2_result.WaitingTask|DEBUG|[STOP]
+2021-05-17 20:58:20,168|azureml._history.utils.context_managers.FileWatcher.UploadQueue|DEBUG|Waiting on task: 2_result.
+1 tasks left. Current duration of flush 0.0005340576171875 seconds.
+
+2021-05-17 20:58:20,168|azureml._history.utils.context_managers.FileWatcher.UploadQueue.WaitFlushSource:UploadQueue|DEBUG|[STOP]

@@ -1,0 +1,25 @@
+[2021-05-29T15:58:01.733384] Entering context manager injector.
+[2021-05-29T15:58:02.705390] Using urllib.request Python 3.0 or later
+Streaming log file azureml-logs/60_control_log.txt
+Running: ['/bin/bash', '/tmp/azureml_runs/mslearn-diabetes_1622303880_efb65d61/azureml-environment-setup/conda_env_checker.sh']
+Starting the daemon thread to refresh tokens in background for process with pid = 3728
+Found materialized conda environment in: /home/azureuser/.azureml/envs/azureml_427fa68fba7f14f977c6360e23d98ec9
+
+
+Running: ['/home/azureuser/.azureml/envs/azureml_427fa68fba7f14f977c6360e23d98ec9/bin/python', 'azureml-setup/run_script.py', '/home/azureuser/.azureml/envs/azureml_427fa68fba7f14f977c6360e23d98ec9/bin/python', 'azureml-setup/context_manager_injector.py', '-i', 'ProjectPythonPath:context_managers.ProjectPythonPath', '-i', 'RunHistory:context_managers.RunHistory', '-i', 'TrackUserError:context_managers.TrackUserError', 'diabetes_experiment.py']
+[2021-05-29T15:58:02.823251] Logging experiment running status in history service.
+Streaming log file azureml-logs/70_driver_log.txt
+Starting the daemon thread to refresh tokens in background for process with pid = 3755
+Script process exited with code 0
+Uploading driver log...
+Finalizing run...
+[2021-05-29T15:58:18.078506] get vm size and vm region successfully.
+[2021-05-29T15:58:18.092449] get compute meta data successfully.
+[2021-05-29T15:58:18.236119] post artifact meta request successfully.
+[2021-05-29T15:58:18.260342] upload compute record artifact successfully.
+
+Script process exited with code 0
+
+
+
+Uploading control log...
